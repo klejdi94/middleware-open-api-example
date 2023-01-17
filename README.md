@@ -1,4 +1,4 @@
-#  API Generic Open Api Middleware [![CI](https://github.com/klejdi94/middleware-open-api-example/actions/workflows/main.yml/badge.svg)](https://github.com/klejdi94/middleware-open-api-example/actions/workflows/main.yml)
+#  API Generic Open Api Middleware [![CI](https://github.com/klejdi94/middleware-open-api-example/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/klejdi94/middleware-open-api-example/actions/workflows/main.yml)
 
 * Java 11
 * Spring WebFlux
