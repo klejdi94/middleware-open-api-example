@@ -23,7 +23,8 @@ externalDocs:
   description: Find out more about Swagger
   url: http://swagger.io
 servers:
-  - url: localhost:9090/api/v1
+  - url: http://localhost:9090/api/v1
+
 tags:
   - name: pet
     description: Everything about your Pets
@@ -38,7 +39,7 @@ tags:
   - name: user
     description: Operations about user
 paths:
-  /pet:
+  /api/v1/pet:
     put:
       tags:
         - pet
@@ -113,7 +114,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /pet/findByStatus:
+  /api/v1/pet/findByStatus:
     get:
       tags:
         - pet
@@ -153,7 +154,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /pet/findByTags:
+  /api/v1/pet/findByTags:
     get:
       tags:
         - pet
@@ -190,7 +191,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /pet/{petId}:
+  /api/v1/pet/{petId}:
     get:
       tags:
         - pet
@@ -282,7 +283,7 @@ paths:
         - petstore_auth:
             - write:pets
             - read:pets
-  /store/inventory:
+  /api/v1/store/inventory:
     get:
       tags:
         - store

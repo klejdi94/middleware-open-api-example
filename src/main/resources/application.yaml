@@ -9,7 +9,7 @@ spring:
 
   data:
     mongodb:
-      uri: ${MONGO_DB_URL}
+      uri: ${MONGO_DB_URL:mongodb://test:test@localhost:27017/test}
 
   jackson:
     date-format: "yyyy-MM-dd'T'HH:mm:ss.SSSX"

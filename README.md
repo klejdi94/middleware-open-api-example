@@ -8,7 +8,7 @@
 
 
 1) Run mongo compose on dir docker-image
-2) Run ```mvn clean compile```
+2) Run ```mvn clean install```
 3) Start the project
 
 
