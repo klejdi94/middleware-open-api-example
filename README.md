@@ -1,34 +1,16 @@
-#  API Generic Middleware
+#  API Generic Open Api Middleware
 
 * Java 11
 * Spring WebFlux
 * Reactive programming
 * Reactive JPA Repository
+* Open Api gen
 
 
 1) Run mongo compose on dir docker-image
-2) Start the project
-
-### Create fast entities : 
-
-model> YourEntity
-
-repository> YourEntityRepository
-
-service> YourEntityService
-
-handler> YourHandler
-
-config.routes> YourEntityConfig
+2) Run ```mvn clean compile```
+3) Start the project
 
 
-### Api exposed : 
-
-GET/POST/PUT/DELETE/PATCH : localhost:9090/api/v1/{entity}/{entityId}
-
-DEMO:
-https://middleware-api-kk.herokuapp.com/api/v1/test
-
-actuator: localhost:9091/actuator 
 
 
